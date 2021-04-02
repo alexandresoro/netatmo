@@ -1,4 +1,4 @@
-module netatmo
+module github.com/alexandresoro/netatmo
 
 go 1.16
 
