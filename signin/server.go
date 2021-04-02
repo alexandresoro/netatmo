@@ -5,7 +5,8 @@ import (
 	"fmt"
 	"net/http"
 	"net/url"
-	"netatmo/netatmoApi"
+
+	"github.com/alexandresoro/netatmo/netatmoApi"
 )
 
 const (

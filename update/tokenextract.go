@@ -2,8 +2,9 @@ package update
 
 import (
 	"encoding/json"
-	"netatmo/utils"
 	"os"
+
+	"github.com/alexandresoro/netatmo/utils"
 )
 
 type TokenData struct {

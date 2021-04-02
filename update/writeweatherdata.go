@@ -2,7 +2,8 @@ package update
 
 import (
 	"fmt"
-	"netatmo/utils"
+
+	"github.com/alexandresoro/netatmo/utils"
 )
 
 const (

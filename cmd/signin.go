@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"netatmo/signin"
-	"netatmo/utils"
+	"github.com/alexandresoro/netatmo/signin"
+	"github.com/alexandresoro/netatmo/utils"
 
 	"github.com/spf13/cobra"
 )

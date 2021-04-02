@@ -1,6 +1,6 @@
 package main
 
-import "netatmo/cmd"
+import "github.com/alexandresoro/netatmo/cmd"
 
 func main() {
 	cmd.Execute()

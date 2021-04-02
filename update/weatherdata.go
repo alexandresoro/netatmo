@@ -4,8 +4,9 @@ import (
 	"encoding/json"
 	"io/ioutil"
 	"net/http"
-	"netatmo/netatmoApi"
 	"strconv"
+
+	"github.com/alexandresoro/netatmo/netatmoApi"
 )
 
 type WeatherDataDashboardData struct {

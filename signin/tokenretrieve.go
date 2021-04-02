@@ -4,7 +4,8 @@ import (
 	"io"
 	"net/http"
 	"net/url"
-	"netatmo/netatmoApi"
+
+	"github.com/alexandresoro/netatmo/netatmoApi"
 )
 
 func RetrieveTokenFromCode(code string, redirectUri string, clientId string, clientSecret string) ([]byte, error) {

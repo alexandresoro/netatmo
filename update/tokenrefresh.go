@@ -4,7 +4,8 @@ import (
 	"io"
 	"net/http"
 	"net/url"
-	"netatmo/netatmoApi"
+
+	"github.com/alexandresoro/netatmo/netatmoApi"
 )
 
 func RefreshToken(tokenData TokenData, clientId string, clientSecret string) ([]byte, error) {

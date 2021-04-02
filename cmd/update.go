@@ -3,8 +3,9 @@ package cmd
 import (
 	"encoding/json"
 	"fmt"
-	"netatmo/update"
-	"netatmo/utils"
+
+	"github.com/alexandresoro/netatmo/update"
+	"github.com/alexandresoro/netatmo/utils"
 
 	"github.com/spf13/cobra"
 )
